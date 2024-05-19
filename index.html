@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1> Coin Checker </h1>
+    </header>
+    <form>
+            <h2>Income Amount</h2>
+            <label for="incomeSource"></label>
+            <input type="text" id="incomeSource" name="incomeSource" placeholder="Income Amount" required>
+            <button id="addIncome" type="button">Add Income</button>
+
+
+            <h2>Expense Amount </h2>
+            <label for="expenseSource"></label>
+            <input type="text" id="expenseSource" name="expenseSource" placeholder="Expense Amount">
+            <button id="addExpense" type="button">Add Expense</button>
+       
+
+        <button type="submit" id="submitButton">Reset</button>
+    </form>
+    <section class="total">
+        <h1>Total Budget</h1>
+        <h2 id="incomeTotal">Total income:</h2>
+        <h2 id="expenseTotal">Total Expense:</h2>
+        <h2 id="remaining">Remaining Balance:</h2>
+
+    </section>
+
+
+
+<script src="index.js"></script>
+</body>
+
+</html>
